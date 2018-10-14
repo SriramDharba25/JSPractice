@@ -115,4 +115,4 @@ for(i=0;i<n;i++){
 
 }
 
-Nprime(100	);
+Nprime(100);
