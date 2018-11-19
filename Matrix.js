@@ -95,27 +95,42 @@ var arr3 = [];
 // 		arr1[i] = temp;
 // }
 // console.log(arr1[arr1.length-j])
+
+
+
 // }
 
 // index(1)
 
-x=5;
-console.log(x);
+// x=5;
+// console.log(x);
 
 
-function deposit(amount) {
-this.balance += amount;
-}
-function withdraw(amount) {
-if (amount <= this.balance) {
-this.balance -= amount;
-}
-if (amount > this.balance) {
-print("Insufficient funds");
-}
-}
-function toString() {
-return "Balance: " + this.balance;
-}
+// function deposit(amount) {
+// this.balance += amount;
+// }
+// function withdraw(amount) {
+// if (amount <= this.balance) {
+// this.balance -= amount;
+// }
+// if (amount > this.balance) {
+// print("Insufficient funds");
+// }
+// }
+// function toString() {
+// return "Balance: " + this.balance;
+// }
 
-deposit(500)
+// deposit(500)
+
+
+// Shift and unshift
+
+var a = [];
+a.unshift(1);
+a.unshift(22);
+a.shift();
+a.unshift(3,[4,5]);
+a.shift();
+a.shift();
+a.shift();
